@@ -1,6 +1,9 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="OA_default.aspx.cs" Inherits="_Default" %>
 
-<%@ Register Src="~/common/OA_head.ascx" TagPrefix="uc1" TagName="OA_head" %>
+<%@ Register Src="~/FileStream/common/OA_head.ascx" TagPrefix="uc1" TagName="OA_head" %>
+
+
+
 
 
 
@@ -25,7 +28,7 @@
 </head>
 
 <body>
-    <uc1:OA_head runat="server" id="OA_head" />
+    <uc1:OA_head runat="server" ID="OA_head" />
     <div style="width: 1000px;height:690px; margin: auto">
         <div class="row-fluid" style="margin-top: 10px">
             <iframe name="center" src="OA_center.aspx" style="width: 100%;height:690px; border: none;"></iframe>
